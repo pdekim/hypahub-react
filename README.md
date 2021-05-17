@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### npm install
+### 'npm install'
 
 Please make sure to yarn install to download necessary packages and dependencies.
 
@@ -42,10 +42,11 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 Here, I just have a simple header text.
 
 ### Table.js
-The bulk of the project is completed in this file. Specific functionalities can be found in the comments.
+The bulk of the project is completed in this file. Specific functionalities can be found in the comments within the code file.
 
-In order to store each row's index, string input, and indices of substrings, I decided implement an array of objects that stores each value. 
+In order to store each row's index, string input, and indices of substrings, I decided implement an array of objects. In each object, there consists of string 'index', string 'textfield', and array 'indices'. 
 
-'''
-{something}
-'''
+### Limitations
+All intended functionalities are working. However, I was not able to implement the 'ADD + EDIT' feature. Specifically, the indices of substring column will update only when a specific row's textfield is being changed. 
+
+Additionally, I have limited user's text input to be capitalized.
