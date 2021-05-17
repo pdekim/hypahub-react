@@ -1,10 +1,10 @@
-# hypahub-react-project
+# react-project
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### 'npm install'
+### `npm install`
 
-Please make sure to yarn install to download necessary packages and dependencies.
+Please make sure to npm install to download necessary packages and dependencies.
 
 ## Available Scripts
 
