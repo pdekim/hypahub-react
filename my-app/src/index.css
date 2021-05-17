@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+table tr th {
+  text-align: middle;
+  background: black;
+  color: white;
+}

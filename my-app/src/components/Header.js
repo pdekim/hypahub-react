@@ -1,5 +1,9 @@
 import React from 'react';
  
+/**
+ * Header Compoenet
+ * returns: header title "Take Home Coding Challenge"
+ */
 const Header = () => {
    return (
        <header>

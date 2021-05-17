@@ -1,20 +1,19 @@
 import logo from './logo.svg';
-import React, { useState } from 'react';
+import React, { Component, useState } from 'react';
 import './App.css';
-import Header from "./Header";
+import Header from "./components/Header";
+import Table from "./components/Table"
 
-function App() {
+class App extends Component {
+  render() {
+    return (
+        <div className="App">
+          <Header />
+          <Table />
+        </div>
+    );
+  }
+}
 
-  const buttonClicked = () => {
-    alert("Great Shot!");
-  } 
-
-  return (
-    <div className="App">
-       <Header />
-       <button onClick={buttonClicked}> Add </button>
-    </div>
-  );
- }
 
 export default App;
